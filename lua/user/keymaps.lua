@@ -54,6 +54,7 @@ keymap("i", "kj", "<ESC>", opts)
 
 -- Visual --
 -- Stay in indent mode
+keymap("v", "q", "<Esc>", opts)
 keymap("v", "<", "<gv", opts)
 keymap("v", ">", ">gv", opts)
 
@@ -64,6 +65,7 @@ keymap("v", "p", '"_dP', opts)
 
 -- Visual Block --
 -- Move text up and down
+keymap("x", "q", "<Esc>", opts)
 keymap("x", "J", ":move '>+1<CR>gv-gv", opts)
 keymap("x", "K", ":move '<-2<CR>gv-gv", opts)
 keymap("x", "<A-j>", ":move '>+1<CR>gv-gv", opts)
